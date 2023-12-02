@@ -1,0 +1,43 @@
+url: https://y7kim.github.io
+baseurl: 
+
+# Site settings
+title: Amati Gattei
+email: davidegattei@riminiservizi.com
+description: "Dottori Commercialisti con una significativa esperienza nella consulenza fiscale a clienti aziendali e privati ed esperti in diritto commerciale, diritto societario, diritto fallimentare e valutazioni d'azienda. Offriamo consulenza fiscale a società straniere che investono in Italia."
+
+
+# Team names, titles and social links
+people:
+- name: Davide Gattei
+  pic: 1
+  position: Commercialista
+  social:
+    - title: linkedin
+      url: http://linkedin.com/in/davide-g-a60a0340
+
+- name: Monica Amati
+  pic: 2
+  position: Lead Marketer
+  social:
+    - title: linkedin
+      url: https://www.linkedin.com/in/monica-amati/
+
+- name: Laura
+  pic: 3
+  position: Lead Developer
+  social:
+    - title: twitter
+      url: #
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: Via Ariete 18, 3
+  - line: Rimini, 47923
+
+# Build settings
+markdown: kramdown
+permalink: pretty
