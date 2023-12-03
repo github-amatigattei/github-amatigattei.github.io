@@ -11,7 +11,7 @@ description: "Dottori Commercialisti con una significativa esperienza nella cons
 people:
 - name: Davide Gattei
   pic: 1
-  position: Commercialista
+  position: Dottore Commercialista
   social:
     - title: linkedin
       url: http://linkedin.com/in/davide-g-a60a0340
@@ -20,15 +20,24 @@ people:
 
 - name: Monica Amati
   pic: 2
-  position: Lead Marketer
+  position: Dottore Commercialista
   social:
     - title: linkedin
       url: https://www.linkedin.com/in/monica-amati/
     - title: at
       url: mailto:amatimonica@riminiservizi.com
 
-- name: Laura Semprini
+- name: Matteo Lombardini
   pic: 3
+  position: Dottore Commercialista
+  social:
+    - title: linkedin
+      url: #
+    - title: at
+      url: mailto:lombardinimatteo@riminiservizi.com
+
+- name: Laura Semprini
+  pic: 4
   position: Contabilita, Fisco, Consulenza
   social:
     - title: linkedin
