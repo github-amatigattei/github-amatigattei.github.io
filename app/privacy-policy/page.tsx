@@ -6,7 +6,7 @@ import { Calendar, Clock, Shield, Mail, Phone, MapPin } from "lucide-react"
 
 export const metadata = {
   title: "Informativa sulla Privacy",
-  description: "Informativa sulla privacy e protezione dei dati personali di CED Contabilità in conformità al GDPR.",
+  description: "Informativa sulla privacy e protezione dei dati in conformità al GDPR.",
 }
 
 export default function PrivacyPolicyPage() {
