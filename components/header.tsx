@@ -58,11 +58,11 @@ export function Header() {
       {isMenuOpen && (
         <div className="md:hidden border-t bg-background w-full">
           <nav className="max-w-screen-xl mx-auto px-4 sm:px-6 md:px-8 py-4 space-y-4">
+            <a href="#expertise" className="block text-sm font-medium hover:text-primary transition-colors">
+              Chi Siamo
+            </a>
             <a href="#services" className="block text-sm font-medium hover:text-primary transition-colors">
               Servizi
-            </a>
-            <a href="#expertise" className="block text-sm font-medium hover:text-primary transition-colors">
-              Competenze
             </a>
             {/* <a href="#blog" className="block text-sm font-medium hover:text-primary transition-colors">
               Approfondimenti
