@@ -53,7 +53,7 @@ export function ExpertiseSection() {
           WebkitBackdropFilter: "blur(8px)",
         }}
       ></div>
-      <div className="relative z-10 container">
+      <div className="relative z-10 container mx-auto">
         <div className="text-center mb-16">
           <Badge variant="outline" className="mb-4" style={{ background: "rgba(243, 246, 248, 1)" }}>
             La nostra esperienza

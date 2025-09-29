@@ -83,9 +83,9 @@ export function ServicesSection() {
   ]
 
   return (
-    <section id="services" className="py-20 px-4 sm:px-6 lg:px-8">
-      <div className="container">
-        <div className="text-center mb-16">
+    <section id="services" className="py-20 px-4 sm:px-6 lg:px-8 mx-auto">
+      <div className="container mx-auto">
+        <div className="text-center mb-16 mx-auto">
           <Badge variant="outline" className="mb-4" style={{ background: "rgba(6, 44, 77, 1)", color: "white" }}>
             I Nostri Servizi
           </Badge>
@@ -98,7 +98,7 @@ export function ServicesSection() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mx-auto">
           {services.map((service, index) => (
             <Card
               key={index}

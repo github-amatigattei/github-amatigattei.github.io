@@ -10,7 +10,7 @@ import { Mail, Phone, MapPin, Clock, Send } from "lucide-react"
 export function ContactSection() {
   return (
     <section id="contact" className="py-20 px-4 sm:px-6 lg:px-8">
-      <div className="container">
+      <div className="container mx-auto">
         <div className="text-center mb-16">
           <Badge variant="outline" className="mb-4" style={{ background: "rgba(6, 44, 77, 1)", color: "white" }}>
             Contattaci
@@ -24,7 +24,7 @@ export function ContactSection() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mx-auto">
           <div>
             <h3 className="text-2xl font-serif font-semibold mb-6">Mettiti in Contatto</h3>
             <div className="space-y-6 mb-8">
@@ -39,7 +39,7 @@ export function ContactSection() {
                 </div>
               </div>
 
-              <div className="flex items-start space-x-4">
+              <div className="flex items-start space-x-4 mx-auto">
                 <div className="flex-shrink-0 w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center" style={{ background: "rgba(6, 44, 77, 1)"}}>
                   <Phone className="h-5 w-5 text-primary" color="white"/>
                 </div>
@@ -49,7 +49,7 @@ export function ContactSection() {
                 </div>
               </div>
 
-              <div className="flex items-start space-x-4">
+              <div className="flex items-start space-x-4 mx-auto">
                 <div className="flex-shrink-0 w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center" style={{ background: "rgba(6, 44, 77, 1)"}}>
                   <MapPin className="h-5 w-5 text-primary" color="white"/>
                 </div>
@@ -74,7 +74,7 @@ export function ContactSection() {
               </div>
             </div>
 
-            <Card className="bg-primary/5 border-primary/20" style={{ background: "rgba(5, 49, 88, 1)" }}>
+            <Card className="bg-primary/5 border-primary/20 mx-auto" style={{ background: "rgba(5, 49, 88, 1)" }}>
               <CardContent className="p-6">
                 <h4 className="font-semibold mb-2" style={{ color: "rgba(246, 130, 31, 1)" }}>Consulenza Iniziale Gratuita</h4>
                 <p className="text-sm text-muted-foreground" style={{ color: "rgba(243, 246, 248, 1)" }}>

@@ -23,7 +23,7 @@ export function HeroSection() {
         }}
       ></div>
       </div>
-      <div className="container relative z-10">
+      <div className="container relative z-10 mx-auto">
       <div className="max-w-4xl mx-auto text-center">
         <div className="flex justify-center mb-4">
         <img
