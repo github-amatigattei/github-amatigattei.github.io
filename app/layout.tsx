@@ -39,7 +39,7 @@ export default function RootLayout({
   return (
     <html lang="it" className={`${lato.variable} ${latoSerif.variable} ${geistMono.variable} antialiased`}>
       <body style={{ minHeight: '100vh' }}>
-        <div style={{ width: '100%', maxWidth: 1300, margin: '0 auto', paddingLeft: 30, paddingRight: 30}}>
+        <div style={{ width: '100%', margin: '0 auto'}}>
           {children}
         </div>
         <CookieConsentManager />

@@ -19,13 +19,14 @@ export function Header() {
               />
             </div>
             <div>
-            <a href="" className="text-xl font-serif font-bold">
+            <a href="/" className="text-xl font-serif font-bold">
             AG.CED srl
             </a>
             <span className="text-sm text-muted-foreground ml-2">Esperti Contabili e Fiscali</span>
           </div>
         </div>
-      </div>  
+       </div> 
+       
 
         {/* <nav className="hidden md:flex items-center space-x-8">
           <a href="#expertise" className="text-sm font-medium hover:text-primary transition-colors">

@@ -4,7 +4,7 @@ import { ArrowRight, Shield, Award } from "lucide-react"
 export function HeroSection() {
   return (
     <section
-      className="relative py-10 md:py-32 overflow-x-hidden"
+      className="relative py-10 md:py-32 overflow-x-hidden mx-auto"
       style={{
       backgroundImage: 'url("/header-bg.jpg")',
       backgroundSize: 'cover',

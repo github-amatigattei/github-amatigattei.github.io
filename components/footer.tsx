@@ -47,7 +47,7 @@ export function Footer() {
             <h3 className="font-semibold mb-4">Privacy Policy</h3>
             <ul className="space-y-2 text-sm">
                 <li>
-                <a href="/" className="text-muted-foreground hover:text-foreground transition-colors">
+                <a href="/cookie-policy" className="text-muted-foreground hover:text-foreground transition-colors">
                   Consulta la nostra Cookie Policy per saperne di più su come proteggiamo i tuoi dati.
                 </a>
                 </li>

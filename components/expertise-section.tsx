@@ -39,7 +39,7 @@ export function ExpertiseSection() {
   return (
     <section
       id="expertise"
-      className="relative py-12 px-10 bg-muted/30 rounded-lg my-5 overflow-hidden"
+      className="relative py-12 px-10 bg-muted/30 rounded-lg my-5 overflow-hidden mx-auto"
       style={{
       backgroundImage: 'url("/office.png")',
       backgroundSize: 'cover',
