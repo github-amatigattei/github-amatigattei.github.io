@@ -9,7 +9,7 @@ import { Mail, Phone, MapPin, Clock, Send } from "lucide-react"
 
 export function ContactSection() {
   return (
-    <section id="contact" className="py-20">
+    <section id="contact" className="py-20 px-4 sm:px-6 lg:px-8">
       <div className="container">
         <div className="text-center mb-16">
           <Badge variant="outline" className="mb-4" style={{ background: "rgba(6, 44, 77, 1)", color: "white" }}>
