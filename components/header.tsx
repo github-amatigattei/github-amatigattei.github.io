@@ -64,12 +64,12 @@ export function Header() {
             <a href="#expertise" className="block text-sm font-medium hover:text-primary transition-colors">
               Competenze
             </a>
-            <a href="#blog" className="block text-sm font-medium hover:text-primary transition-colors">
+            {/* <a href="#blog" className="block text-sm font-medium hover:text-primary transition-colors">
               Approfondimenti
             </a>
             <a href="#about" className="block text-sm font-medium hover:text-primary transition-colors">
               Chi Siamo
-            </a>
+            </a> */}
             <a href="#contact" className="block text-sm font-medium hover:text-primary transition-colors">
               Contatti
             </a>

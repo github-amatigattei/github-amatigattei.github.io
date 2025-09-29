@@ -1,6 +1,12 @@
+"use client"
+
 import { Badge } from "@/components/ui/badge"
 import { Card, CardContent } from "@/components/ui/card"
 import { Calendar, Users, TrendingUp, Shield } from "lucide-react"
+import { useState } from "react"
+import Image from "next/image"
+import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog"
+import Modal from "@/components/modal"
 
 export function ExpertiseSection() {
   const stats = [
@@ -14,20 +20,15 @@ export function ExpertiseSection() {
       icon: Users,
       number: "3+",
       label: "Dottori Commercialisti",
-      description: "Iscritti all'Albo Professionale",
-      },
-    //   {
-    //   icon: Users,
-    //   number: "10+",
-    //   label: "Competenze Specialistiche",
-    //   description: "In Materia di Contabilità, Bilancio, Controllo di Gestione, Revisione Legale, Fisco, Società, Contratti, Perizie di Stima, Crisi d'Impresa, Procedure di Sovraindebitamento, Successioni Ereditarie",
-    // },
-    // {
-    //   icon: Users,
-    //   number: "10+",
-    //   label: "Competenze Specialistiche",
-    //   description: "In Materia di Contabilità, Bilancio, Controllo di Gestione, Revisione Legale, Fisco, Società, Contratti, Perizie di Stima, Crisi d'Impresa, Procedure di Sovraindebitamento, Successioni Ereditarie",
-    // },
+      description: (
+        <>
+          Iscritti all'Albo Professionale <br />
+          <br /> <strong>
+          Clicca QUI per vedere il team</strong>
+        </>
+      ),
+      modal: true, // flag to open modal on click
+    },
     {
       icon: Shield,
       number: "500+",
@@ -35,6 +36,35 @@ export function ExpertiseSection() {
       description: "Aziende e Privati",
     },
   ]
+
+  const team = [
+    {
+      name: "Dott.ssa Monica Amati",
+      photo: "2.jpg",
+      description: "Consulenza societaria e fiscale, crisi d'impresa, procedure concorsuali e di sovraindebitamento.",
+    },
+    {
+      name: "Dott. Davide Gattei",
+      photo: "1.jpg",
+      description: "Consulenza societaria e fiscale, crisi d'impresa, procedure concorsuali.",
+    },
+    {
+      name: "Dott. Matteo Lombardini",
+      photo: "3.jpg",
+      description: "Consulenza societaria, fiscale e revisione legale.",
+    },
+    {
+      name: "Rag. Laura Semprini",
+      photo: "4.jpg",
+      description: "Contabilità e consulenza in bilancio e fisco.",
+    },
+  ]
+
+  const [open, setOpen] = useState(false)
+
+  function handleCardClick(index: number) {
+    if (stats[index].modal) setOpen(true)
+  }
 
   return (
     <section
@@ -70,6 +100,7 @@ export function ExpertiseSection() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {stats.map((stat, index) => (
             <Card
+              onClick={() => handleCardClick(index)}
               key={index}
               className="text-center shadow-sm hover:shadow-[0_8px_32px_0_rgba(6,44,77,1)] transition-all hover:-translate-y-1 border-0"
               style={{ background: "rgba(5, 49, 88, 0.8)" }}
@@ -123,7 +154,29 @@ export function ExpertiseSection() {
        
         </div>
       </div>
+      { open && (
+      <Modal isOpen={open} onClose={() => setOpen(false)} title="Il nostro team">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+          {team.map((member, index) => (
+            <div key={index} className="text-center">
+              <div className="w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden shadow-lg">
+                <Image
+                  src={member.photo}
+                  alt={member.name}
+                  width={128}
+                  height={128}
+                  className="object-cover w-full h-full"
+                />
+              </div>
+              <h3 className="text-lg font-semibold" style={{ color: "rgba(5, 49, 88, 1)" }}>{member.name}</h3>
+              <p className="text-sm text-muted-foreground" style={{ color: "rgba(33, 33, 33, 0.8)" }}>{member.description}</p>
+            </div>
+          ))}
+        </div>
+      </Modal>)
+    }  
     </section>
+    
   )
 }
 
