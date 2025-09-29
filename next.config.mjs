@@ -1,8 +1,6 @@
 /** @type {import('next').NextConfig} */
 
 
-const repoName = 'website';
-
 const nextConfig = {
   eslint: {
     ignoreDuringBuilds: true,
@@ -14,8 +12,8 @@ const nextConfig = {
     unoptimized: true,
   },
   output: 'export', // Enable static export for GitHub Pages
-  basePath: `/${repoName}`,
-  assetPrefix: `/${repoName}/`,
+  basePath: ``,
+  assetPrefix: ``,
 }
 
 export default nextConfig
