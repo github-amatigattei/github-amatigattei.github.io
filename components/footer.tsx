@@ -48,7 +48,7 @@ export function Footer() {
             <ul className="space-y-2 text-sm">
                 <li>
                 <a href="/cookie-policy" className="text-muted-foreground hover:text-foreground transition-colors">
-                  Consulta la nostra Cookie Policy per saperne di più su come proteggiamo i tuoi dati.
+                  Consulta qui la nostra Cookie Policy per saperne di più su come proteggiamo i tuoi dati.
                 </a>
                 </li>
             </ul>

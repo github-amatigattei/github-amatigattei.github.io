@@ -220,7 +220,7 @@ export default function CookiePolicyPage() {
           {/* Action Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center pt-8">
             <Button asChild>
-              <a href="">Torna alla Home</a>
+              <a href="/">Torna alla Home</a>
             </Button>
             {/* <Button variant="outline" asChild>
               <a href="/privacy-policy">Leggi l'Informativa Privacy</a>

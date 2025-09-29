@@ -1,15 +1,12 @@
 "use client"
 
-import { Button } from "@/components/ui/button"
-import { Menu, X, Calculator } from "lucide-react"
-import { useState } from "react"
+
 
 export function Header() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div className="container flex h-16 items-center justify-between">
+      <div className="container flex h-16 items-center justify-between px-6 mx-auto">
         <div className="flex items-center space-x-3">
             <div className="h-10 w-10 rounded-lg bg-primary flex items-center justify-center overflow-hidden p-0">
               <img
