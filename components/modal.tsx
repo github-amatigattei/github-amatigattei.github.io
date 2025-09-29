@@ -24,6 +24,7 @@ const Modal: React.FC<ModalProps> = ({ isOpen, onClose, children, title }) => {
                 alignItems: 'center',
                 justifyContent: 'center',
                 zIndex: 1000,
+                overflowY: 'auto',
             }}
             onClick={onClose}
         >
@@ -36,6 +37,8 @@ const Modal: React.FC<ModalProps> = ({ isOpen, onClose, children, title }) => {
                     maxWidth: '90vw',
                     boxShadow: '0 2px 8px rgba(0,0,0,0.2)',
                     position: 'relative',
+                    overflow: 'auto',
+                    maxHeight: '90vh',
                 }}
                 onClick={e => e.stopPropagation()}
             >
