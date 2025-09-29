@@ -40,7 +40,7 @@ export function Header() {
         </nav>
 
         <div className="hidden md:flex items-center space-x-4">
-          <Button size="sm">Consulenza Gratuita</Button>
+          <Button className="cursor-pointer" size="sm">Consulenza Gratuita</Button>
         </div>
 
         <Button variant="ghost" size="sm" className="md:hidden" onClick={() => setIsMenuOpen(!isMenuOpen)}>

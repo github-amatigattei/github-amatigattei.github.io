@@ -43,7 +43,7 @@ export function Header() {
 
           <div className="hidden md:flex items-center space-x-4">
             <a href="#contact" className="flex items-center">
-              <Button size="sm" style={{ background: "rgba(6, 44, 77, 1)" }}>
+              <Button className="cursor-pointer" size="sm" style={{ background: "rgba(6, 44, 77, 1)" }}>
                 1ª Consulenza Gratuita
               </Button>
             </a>
@@ -75,7 +75,7 @@ export function Header() {
             </a>
             <div className="pt-4 space-y-2">
               <a href="#contact" className="flex items-center">
-              <Button size="sm" className="w-full">
+              <Button size="sm" className="w-full cursor-pointer" style={{ background: "rgba(6, 44, 77, 1)" }}>
                 Consulenza Gratuita
               </Button>
               </a> 

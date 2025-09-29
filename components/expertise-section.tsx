@@ -55,7 +55,7 @@ export function ExpertiseSection() {
       ></div>
       <div className="relative z-10 container mx-auto">
         <div className="text-center mb-16">
-          <Badge variant="outline" className="mb-4" style={{ background: "rgba(243, 246, 248, 1)" }}>
+          <Badge variant="outline" className="mb-4 text-sm" style={{ color: "rgba(255,255,255,0.9)", background: "rgba(5, 49, 88, 1)" }}>
             La nostra esperienza
           </Badge>
           <h2 className="text-3xl md:text-4xl font-serif font-bold text-balance mb-4 text-shadow-sm" style={{ color: "rgba(5, 49, 88, 1)" }}>

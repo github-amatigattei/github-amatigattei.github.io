@@ -12,7 +12,7 @@ export function ContactSection() {
     <section id="contact" className="py-20 px-4 sm:px-6 lg:px-8">
       <div className="container mx-auto">
         <div className="text-center mb-16">
-          <Badge variant="outline" className="mb-4" style={{ background: "rgba(6, 44, 77, 1)", color: "white" }}>
+          <Badge variant="outline" className="mb-4 text-sm" style={{ background: "rgba(6, 44, 77, 1)", color: "white" }}>
             Contattaci
           </Badge>
           <h2 className="text-3xl md:text-4xl font-serif font-bold text-balance mb-4 text-shadow-sm" style={{ color: "rgba(5, 49, 88, 1)" }}>
