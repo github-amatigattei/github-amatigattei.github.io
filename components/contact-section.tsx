@@ -167,10 +167,10 @@ export function ContactSection() {
                   Invia Messaggio
                 </Button>
 
-                <p className="text-xs text-muted-foreground text-center">
-                  Inviando questo modulo, accetti la nostra politica sulla privacy. Non condivideremo mai le tue
+                {/* <p className="text-xs text-muted-foreground text-center">
+                  Inviando questo modulo, non verranno salvate le tue
                   informazioni con terze parti.
-                </p>
+                </p> */}
               </form>
             </CardContent>
           </Card>
