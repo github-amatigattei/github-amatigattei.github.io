@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button"
 import { Calendar, Clock, Shield, Mail, Phone, MapPin } from "lucide-react"
 
 export const metadata = {
-  title: "Informativa sulla Privacy - CED Contabilità",
+  title: "Informativa sulla Privacy",
   description: "Informativa sulla privacy e protezione dei dati personali di CED Contabilità in conformità al GDPR.",
 }
 
