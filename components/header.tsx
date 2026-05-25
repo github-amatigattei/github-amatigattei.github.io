@@ -82,7 +82,7 @@ export function Header() {
             <div className="pt-4 space-y-2">
               <a href="#contact" className="flex items-center">
               <Button size="sm" className="w-full cursor-pointer" style={{ background: "rgba(6, 44, 77, 1)" }}>
-                Consulenza Gratuita
+                Prenota una consulenza
               </Button>
               </a> 
             </div>
