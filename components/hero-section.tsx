@@ -64,7 +64,7 @@ export function HeroSection() {
           className="text-base px-8 bg-[rgba(246,130,31,1)] text-white hover:bg-white hover:text-[rgba(5,49,88,1)]"
         >
           <a href="#contact" className="flex items-center">
-          Prenota 1ª Consulenza Gratuita
+          Prenota una consulenza
           <ArrowRight className="ml-2 h-4 w-4" /> 
           </a>
         </Button>

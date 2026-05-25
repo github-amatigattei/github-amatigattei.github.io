@@ -4,8 +4,6 @@ import { Badge } from "@/components/ui/badge"
 import { Card, CardContent } from "@/components/ui/card"
 import { Calendar, Users, TrendingUp, Shield } from "lucide-react"
 import { useState } from "react"
-import Image from "next/image"
-import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog"
 import Modal from "@/components/modal"
 
 export function ExpertiseSection() {
@@ -22,9 +20,7 @@ export function ExpertiseSection() {
       label: "Dottori Commercialisti",
       description: (
         <>
-          Iscritti all'Albo Professionale <br />
-          <br /> <strong>
-          Clicca QUI per vedere il team</strong>
+          Iscritti all'Albo Professionale dei Dottori Commercialisti ed Esperti Contabili
         </>
       ),
       modal: true, // flag to open modal on click
@@ -40,22 +36,18 @@ export function ExpertiseSection() {
   const team = [
     {
       name: "Dott.ssa Monica Amati",
-      photo: "2.jpg",
       description: "Consulenza societaria e fiscale, crisi d'impresa, procedure concorsuali e di sovraindebitamento.",
     },
     {
       name: "Dott. Davide Gattei",
-      photo: "1.jpg",
       description: "Consulenza societaria e fiscale, crisi d'impresa, procedure concorsuali.",
     },
     {
       name: "Dott. Matteo Lombardini",
-      photo: "3.jpg",
       description: "Consulenza societaria, fiscale e revisione legale.",
     },
     {
       name: "Rag. Laura Semprini",
-      photo: "4.jpg",
       description: "Contabilità e consulenza in bilancio e fisco.",
     },
   ]
@@ -153,28 +145,7 @@ export function ExpertiseSection() {
           </Card>
        
         </div>
-      </div>
-      { open && (
-      <Modal isOpen={open} onClose={() => setOpen(false)} title="Il nostro team">
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-          {team.map((member, index) => (
-            <div key={index} className="text-center">
-              <div className="w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden shadow-lg">
-                <Image
-                  src={member.photo}
-                  alt={member.name}
-                  width={128}
-                  height={128}
-                  className="object-cover w-full h-full"
-                />
-              </div>
-              <h3 className="text-lg font-semibold" style={{ color: "rgba(5, 49, 88, 1)" }}>{member.name}</h3>
-              <p className="text-sm text-muted-foreground" style={{ color: "rgba(33, 33, 33, 0.8)" }}>{member.description}</p>
-            </div>
-          ))}
-        </div>
-      </Modal>)
-    }  
+      </div>  
     </section>
     
   )

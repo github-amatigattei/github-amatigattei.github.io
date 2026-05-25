@@ -44,7 +44,7 @@ export function Header() {
           <div className="hidden md:flex items-center space-x-4">
             <a href="#contact" className="flex items-center">
               <Button className="cursor-pointer" size="sm" style={{ background: "rgba(6, 44, 77, 1)" }}>
-                1ª Consulenza Gratuita
+                Prenota una consulenza
               </Button>
             </a>
           </div>

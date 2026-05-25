@@ -83,7 +83,7 @@ export function ServicesSection() {
   ]
 
   return (
-    <section id="services" className="py-20 px-4 sm:px-6 lg:px-8 mx-auto">
+    <section id="services" className="py-12 px-4 sm:px-6 lg:px-8 mx-auto">
       <div className="container mx-auto">
         <div className="text-center mb-16 mx-auto">
           <Badge variant="outline" className="mb-4 text-sm" style={{ background: "rgba(6, 44, 77, 1)", color: "white" }}>

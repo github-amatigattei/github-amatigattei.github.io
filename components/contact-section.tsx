@@ -9,7 +9,7 @@ import { Mail, Phone, MapPin, Clock, Send } from "lucide-react"
 
 export function ContactSection() {
   return (
-    <section id="contact" className="py-20 px-4 sm:px-6 lg:px-8">
+    <section id="contact" className="py-12 px-4 sm:px-6 lg:px-8">
       <div className="container mx-auto">
         <div className="text-center mb-16">
           <Badge variant="outline" className="mb-4 text-sm" style={{ background: "rgba(6, 44, 77, 1)", color: "white" }}>
@@ -18,10 +18,6 @@ export function ContactSection() {
           <h2 className="text-3xl md:text-4xl font-serif font-bold text-balance mb-4 text-shadow-sm" style={{ color: "rgba(5, 49, 88, 1)" }}>
             Prenota la tua consulenza
           </h2>
-          <p className="text-lg text-muted-foreground text-balance max-w-2xl mx-auto">
-            Se non hai mai lavorato con noi, contattaci oggi per una prima consulenza gratuita per
-            discutere le tue esigenze specifiche e come possiamo aiutarti.
-          </p>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mx-auto">
@@ -76,9 +72,9 @@ export function ContactSection() {
 
             <Card className="bg-primary/5 border-primary/20 mx-auto" style={{ background: "rgba(5, 49, 88, 1)" }}>
               <CardContent className="p-6">
-                <h4 className="font-semibold mb-2" style={{ color: "rgba(246, 130, 31, 1)" }}>Consulenza Iniziale Gratuita</h4>
+                <h4 className="font-semibold mb-2" style={{ color: "rgba(246, 130, 31, 1)" }}>Richiedi una consulenza con uno dei nostri professionisti</h4>
                 <p className="text-sm text-muted-foreground" style={{ color: "rgba(243, 246, 248, 1)" }}>
-                  Offriamo una prima consulenza gratuita di 30 minuti per discutere le tue esigenze e come possiamo aiutarti.
+                  Contattaci per trovare la soluzione  migliore per le tue esigenze.
                 </p>
               </CardContent>
             </Card>
