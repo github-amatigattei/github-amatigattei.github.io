@@ -36,6 +36,9 @@ export function Header() {
             {/* <a href="#blog" className="text-sm font-medium hover:text-primary transition-colors">
               Approfondimenti
             </a> */}
+            <a href="#media" className="text-sm font-medium hover:text-primary transition-colors">
+              Notizie
+            </a>
             <a href="#contact" className="text-sm font-medium hover:text-primary transition-colors">
               Contatti
             </a>
@@ -70,6 +73,9 @@ export function Header() {
             <a href="#about" className="block text-sm font-medium hover:text-primary transition-colors">
               Chi Siamo
             </a> */}
+            <a href="#media" className="block text-sm font-medium hover:text-primary transition-colors">
+              Notizie
+            </a>
             <a href="#contact" className="block text-sm font-medium hover:text-primary transition-colors">
               Contatti
             </a>

@@ -4,7 +4,7 @@ import { ExpertiseSection } from "@/components/expertise-section"
 import { ServicesSection } from "@/components/services-section"
 import { TestimonialsSection } from "@/components/testimonials-section"
 import { BlogPreviewSection } from "@/components/blog-preview-section"
-import { PhotosSection } from "@/components/photos-section"
+
 import { VideoInterviewSection } from "@/components/video-interview-section"
 import { ContactSection } from "@/components/contact-section"
 import { Footer } from "@/components/footer"
@@ -18,7 +18,7 @@ export default function HomePage() {
         <ExpertiseSection />
         <ServicesSection />
         {/* <BlogPreviewSection /> */}
-        <PhotosSection />
+
         <VideoInterviewSection />
         <ContactSection />
       </main>

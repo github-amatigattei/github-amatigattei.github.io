@@ -34,10 +34,6 @@ export function HeroSection() {
           className="object-contain"
         />
         </div>
-        <div className="inline-flex items-center rounded-full border px-6 py-2 text-sm mb-8 bg-card">
-        {/* <Award className="mr-2 h-4 w-4 text-primary" /> */}
-        <span className="text-muted-foreground">Da 30 anni sul territorio Riminese • Consulenza fiscale e finanziaria esperta</span>
-        </div>
 
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-serif tracking-tight text-balance mb-6 text-white text-shadow-lg">
         Studio Dottori Commercialisti<br />
@@ -68,10 +64,6 @@ export function HeroSection() {
           <ArrowRight className="ml-2 h-4 w-4" /> 
           </a>
         </Button>
-        </div>
-
-        <div className="inline-flex items-center rounded-full border px-6 py-2 text-sm mb-8 bg-card">
-        <span className="text-muted-foreground">Dottori Commercialisti Abilitati Iscritti all'Albo  •    Consulenze a Privati e Aziende</span>
         </div>
       </div>
       </div>

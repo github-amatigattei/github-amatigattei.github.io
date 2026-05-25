@@ -7,13 +7,10 @@ export function VideoInterviewSection() {
       <div className="container mx-auto">
         <div className="text-center mb-16">
           <Badge variant="outline" className="mb-4 text-sm" style={{ background: "rgba(6, 44, 77, 1)", color: "white" }}>
-            Video
+            Notizie
           </Badge>
-          <h2 className="text-3xl md:text-4xl font-serif font-bold text-balance mb-4 text-shadow-sm" style={{ color: "rgba(5, 49, 88, 1)" }}>
-            Intervista
-          </h2>
           <p className="text-lg text-muted-foreground text-balance max-w-2xl mx-auto">
-            Scopri l&apos;intervista alla Dott.ssa Monica Amati dello Studio Amati Gattei sull&apos;intervista di Story Time.
+            Scopri l&apos;intervista alla Dott.ssa Monica Amati su Story Time.
           </p>
         </div>
 
