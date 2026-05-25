@@ -88,7 +88,7 @@ export function ExpertiseSection() {
   return (
     <section
       id="expertise"
-      className="relative py-12 px-10 bg-muted/30 rounded-lg my-5 overflow-hidden mx-auto px-4 sm:px-6 lg:px-8"
+      className="relative py-12 px-10 bg-muted/30 rounded-lg my-5 mx-auto px-4 sm:px-6 lg:px-8"
       style={{
       backgroundImage: 'url("/office.png")',
       backgroundSize: 'cover',
@@ -178,9 +178,9 @@ export function ExpertiseSection() {
             </Badge>
           </div>
 
-          <div className="flex gap-6 overflow-x-auto snap-x snap-mandatory scrollbar-hide pb-4 -mx-4 px-4">
+          <div className="flex flex-nowrap gap-6 overflow-x-auto snap-x snap-mandatory scrollbar-hide pb-4 -mx-4 px-4 md:grid md:grid-cols-2 lg:grid-cols-3 md:overflow-visible md:mx-0 md:px-0 md:pb-0">
             {portraits.map((photo, i) => (
-              <div key={i} className="snap-center shrink-0 w-[75vw] md:w-[40vw] lg:w-[28vw]">
+              <div key={i} className="snap-center shrink-0 w-[80%] md:w-auto">
                 <div className="p-1.5 bg-white rounded-xl shadow-lg border border-gray-100">
                   <div className="relative overflow-hidden rounded-lg" style={{ aspectRatio: "2/3" }}>
                     <Image src={photo.src} alt={photo.name} fill className="object-cover" />
@@ -195,7 +195,7 @@ export function ExpertiseSection() {
               </div>
             ))}
 
-            <div className="snap-center shrink-0 w-[75vw] md:w-[40vw] lg:w-[28vw]">
+            <div className="snap-center shrink-0 w-[80%] md:w-auto">
               <div className="p-1.5 bg-white rounded-xl shadow-lg border border-gray-100 h-full">
                 <div className="relative overflow-hidden rounded-lg flex flex-col" style={{ aspectRatio: "2/3" }}>
                   {landscapes.map((photo, i) => (
